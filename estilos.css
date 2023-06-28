@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+  overflow-x: hidden; /*elimina scroll para los costados*/
+}
+
+#nav1{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#nav1 a{
+	margin: auto;
+}
+
+#nav1 a img{
+	margin: auto;
+}
+
+nav ul li{
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar-collapse{
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    text-align: right;
+    padding: 0 15% 0 0;
+}
+
+#home{
+	height:80vh;
+  	width: 100%;
+  	background: url("img/img_home.jpg") no-repeat center center;
+  	background-size: cover
+}
+
+.content-hero{
+	padding: 0 0 0 10%;
+}
+
+.hero{
+    font-size: 40px;
+  	color: white;
+  	padding-top: 8em;
+  	font-family: 'Raleway', sans-serif;
+}
+
+.button{
+	padding-left: 3em;
+}
+
+#sobre-mi{
+	margin: auto;
+	padding-top: 100px;
+}
+
+.content h3{
+	text-align: center;
+	color: #573e9e;
+	font-size: 40px;
+	text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content p{
+	width: 75%;
+	margin: auto;
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.img-yo{
+	text-align: center;
+}
+
+
+#servicios{
+	padding-top: 100px;
+
+}
+
+#servicios h3{
+	text-align: center;
+	color: #573e9e;
+	font-size: 40px;
+	text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card{
+	width: 30rem;
+	margin: auto;
+	margin-top: 60px;
+	max-width: 100%;
+}
+
+.card-body p{
+	font-size: 18px;
+}
+
+#trabajos{
+	margin: auto;
+	margin-top: 100px;
+}
+
+#trabajos h3{
+	text-align: center;
+	color: #573e9e;
+	font-size: 40px;
+	text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#categorias{
+	width: 100%;
+}
+
+#categorias ul{
+	width: 100%;
+	display: block;
+	list-style: none;
+}
+
+#categorias ul li{
+	width: 100%;
+	margin-top: 20px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.imagenes{
+	width: 100%;
+}
+
+ .contenedor-imagenes{
+ 	display: flex;
+ 	flex-wrap: wrap;
+}
+
+.contenedor-imagenes a {
+	width: 50%;
+	padding: 10px;
+}
+
+.contenedor-imagenes a img{
+	width: 100%;
+}
+
+/* CONTACTO */
+
+#contacto{
+	padding-top: 100px;
+}
+
+#contacto h3{
+	text-align: center;
+	color: #573e9e;
+	font-size: 40px;
+	text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#contacto h4{
+	text-align: center;
+	padding-top: 25px;
+	width: 80%;
+	margin: auto;
+}
+
+#contacto p{
+	text-align: center;
+	font-size: 18px;
+	padding-top: 25px;
+	width: 80%;
+	margin: auto;
+}
+
+.datos{
+	text-align: center;
+
+}
+
+.datos ul{
+	padding: 20px 0 20px 0;
+}
+
+.datos ul li{
+	margin: 10px 0 0 0;
+	
+}
+
+/*
+#formulario{
+	padding-top: 25px;
+}
+
+.izq{
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+.der{
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+.comentario{
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+input{
+	width: 100%;
+	text-align: center;
+	padding-left: 5px;
+}
+
+textarea{
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	padding-left: 5px;
+}
+
+.enviar{
+	text-align: center;
+}
+
+.boton-enviar{
+	width: 20%;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 100px;
+}
+
+*/
+
+footer{
+	background-color: #f4f4f4;
+}
+
+.link1{
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+.link1 ul{
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	list-style: none;
+}
+
+.link1 ul li{
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 20px;
+}
+
+.link1 ul li a{
+	text-decoration: none;
+	color: #13e8dd;
+}
+.link2{
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+.link2 p{
+	text-align: center;
+
+}
+
+@media screen and (min-width: 992px){
+
+body{
+	overflow-x: hidden; /*elimina scroll para los costados*/
+}
+
+nav{
+
+}
+
+#nav1{
+	display: flex;
+	flex-direction: row;
+	justify-content:center;	
+}
+
+#nav1 a{
+	width: 50%;
+}
+
+#nav1 a img{
+	margin: 0 0 0 40%;
+}
+nav ul{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav ul li{
+	width: 40%;
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar-collapse{
+    position: relative;
+    width: 60%;
+    top: 0;
+    padding: 0;
+}
+
+.content-hero{
+	padding: 0 0 0 5%;
+}
+
+.hero{
+	font-size: 40px;
+  	color: white;
+	padding-top: 10em;
+  	font-family: 'Raleway', sans-serif;
+}
+
+
+/* SOBRE MI*/
+#sobre-mi{
+	display: flex;
+	flex-direction: row-reverse;
+	padding-top: 6em;
+}
+
+.content{
+	width: 50%;
+}
+
+.content h3{
+	width: 90%;
+	text-align: left;
+}
+
+.content p{
+	text-align: left;
+	width: 50%;
+	margin: 0 0 0 0;
+}
+
+.img-yo{
+	width: 50%;
+	text-align: right;
+}
+
+.img-yo img{
+	width: 50%;
+	padding: 0 25px 0 0; 
+}
+
+/* SERVICIOS*/
+#servicios{
+	width: 100%;
+}
+
+#servicios h3{
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+
+.cont-cards{
+	display: flex;
+	justify-content: center;
+}
+
+.card{
+	width: 30rem;
+	margin: auto;
+	margin-top: 60px;
+	margin: 0 25px 0;
+}
+
+/* TRABAJOS - GALERIA*/
+
+#trabajos{
+	margin: auto;
+	margin-top: 100px;
+}
+
+#trabajos h3{
+    text-align: center;
+	color: #573e9e;
+	font-size: 40px;
+	text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Raleway', sans-serif;
+}
+
+ #container{
+ 	display: flex;
+ 	padding-top: 50px;
+ }
+
+#categorias{
+	width: 20%;
+	display: flex;
+}
+
+#categorias ul{
+	width: 100%;
+	display: block;
+	list-style: none;
+}
+
+#categorias ul li{
+	margin-top: 20px;
+	margin-left: 50%;
+	text-align: left;
+}
+
+ .contenedor-imagenes{
+ 	width: 60%;
+}
+
+.contenedor-imagenes a {
+	width: 20%;
+}
+
+/* CONTACTO*/
+#contacto{
+	padding-top: 50px;
+	overflow: hidden;
+}
+
+#contacto h3{
+	text-align: center;
+	padding-top: 20px;
+}
+
+#contacto p{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 20px;
+}
+
+.datos{
+	text-align: center;
+
+}
+
+.datos ul{
+	padding: 20px 0 20px 0;
+}
+
+.datos ul li{
+	margin: 10px 0 0 0;
+	
+}
+
+/*
+
+#formulario{
+	padding-top: 25px;
+
+}
+
+.form1{
+	width: 60%;
+	display: flex;
+	margin: auto;
+}
+
+.izq{
+	width: 45%;
+	height: 50px;
+}
+
+.izq input, .der input{
+	height: 40px;
+	text-align: left;
+	padding-left: 5px;
+}
+
+.der{
+	width: 45%;
+	height: 50px;
+}
+
+.form2{
+	width: 100%;
+	padding: 50px 0 0 0;	
+}
+.comentario{
+	width: 60%;
+	padding-top: 20px;
+	margin: auto;
+}
+
+.comentario textarea{
+	width: 95%;
+	height: 200px;
+	text-align: left;
+	padding-left: 5px;
+	margin: auto;
+}
+
+.boton-enviar{
+	width: 10%;
+}
+*/
+
+/* FOOTER*/
+footer{
+	display: flex;
+	justify-content: space-around;
+	background-color: #f4f4f4;
+}
+
+.link1{
+	width: 30%;
+}
+
+.link1 ul{
+	width: 100%;
+	text-align: left;
+}
+
+.link1 ul li{
+	width: 30%;
+	text-align: left;
+	margin-top: 20px;
+}
+
+.link1 ul li a{
+	text-decoration: none;
+	color: #00d1c6;
+}
+
+.link2{
+	width: 30%;
+}
+
+.link2 p{
+
+	text-align: right;
+	margin-top: 175px;
+}
+
+}
